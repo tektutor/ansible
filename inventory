@@ -1,0 +1,25 @@
+[all]
+172.17.0.2 ansible_ssh_port=2000 ansible_ssh_host=127.0.0.1
+172.17.0.3 ansible_ssh_port=2001 ansible_ssh_host=127.0.0.1
+172.17.0.4 ansible_ssh_port=2002 ansible_ssh_host=127.0.0.1
+172.17.0.5 ansible_ssh_port=2003 ansible_ssh_host=127.0.0.1
+172.17.0.6 ansible_ssh_port=2004 ansible_ssh_host=127.0.0.1
+172.17.0.7 ansible_ssh_port=2005 ansible_ssh_host=127.0.0.1
+172.17.0.8 ansible_ssh_port=2006 ansible_ssh_host=127.0.0.1
+172.17.0.9 ansible_ssh_port=2007 ansible_ssh_host=127.0.0.1
+172.17.0.10 ansible_ssh_port=2008 ansible_ssh_host=127.0.0.1
+
+[dev]
+172.17.0.2 ansible_ssh_port=2000 ansible_ssh_host=127.0.0.1
+172.17.0.3 ansible_ssh_port=2001 ansible_ssh_host=127.0.0.1
+172.17.0.4 ansible_ssh_port=2002 ansible_ssh_host=127.0.0.1
+
+[qa]
+172.17.0.5 ansible_ssh_port=2003 ansible_ssh_host=127.0.0.1
+172.17.0.6 ansible_ssh_port=2004 ansible_ssh_host=127.0.0.1
+172.17.0.7 ansible_ssh_port=2005 ansible_ssh_host=127.0.0.1
+
+[prod]
+172.17.0.8 ansible_ssh_port=2006 ansible_ssh_host=127.0.0.1
+172.17.0.9 ansible_ssh_port=2007 ansible_ssh_host=127.0.0.1
+172.17.0.10 ansible_ssh_port=2008 ansible_ssh_host=127.0.0.1

@@ -1,0 +1,7 @@
+---
+- name: "This is a simple playbook"
+  hosts: all 
+  become: True 
+  tasks:
+   - name: Install tree utility on every machine 
+     apt: name=tree state=present update_cache=yes
